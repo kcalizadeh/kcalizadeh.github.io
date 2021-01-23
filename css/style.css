@@ -90,9 +90,14 @@
 	}
 
 	hr {
-		border-top: solid 1px #82b440;
-		border: 0;
-		margin-bottom: 1.5em;
+		/* height:1px; */
+		/* border-top: solid 1px #5c5c5c; */
+		border: solid 1px gray;
+		background-color:gray;
+		color:gray;
+		/* margin-bottom: 1em; */
+		width:80%;
+		margin-left: 0px;
 	}
 
 	blockquote {
