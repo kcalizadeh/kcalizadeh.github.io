@@ -794,6 +794,12 @@
 		font-weight: 400;
 	}
 
+	iframe {
+		overflow-x: hidden; 
+		overflow-y: scroll; 
+	}
+
+
 /* Team */
 
 	#team h3 {
