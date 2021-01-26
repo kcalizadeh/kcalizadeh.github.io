@@ -534,7 +534,8 @@
 			color: white;
 		}
 
-			.wrapper.style3 .container {
+			.wrapper.style3 .
+			{
 				/* padding-left: 4em;
 				padding-right: 4em; */
 			}
@@ -730,12 +731,19 @@
 /* Main */
 
 	#main {
-		padding: 4em 0;
+		padding-top: 4em;
+		background: #fff;
+		padding-bottom: 1em;
+
 	}
 
 		#main #content .major, #main #sidebar .major {
 			text-align: left;
 		}
+
+			#main #content h2 {
+				text-align: center;
+			}
 
 		#main #sidebar section {
 			margin-top: 4em;
