@@ -286,7 +286,7 @@
 				text-decoration: none;
 				font-size: 2em;
 				color: inherit;
-				opacity: 0.2;
+				opacity: 0.4;
 				-moz-transition: all 0.35s ease-in-out;
 				-webkit-transition: all 0.35s ease-in-out;
 				-o-transition: all 0.35s ease-in-out;
@@ -501,6 +501,13 @@
 					font-weight: 400;
 				}
 
+					.wrapper.style2 .major span {
+						font-size: 16px;
+						text-transform: capitalize;
+						font-weight: 300;
+
+					}
+
 				.wrapper.style2 .major .byline {
 					letter-spacing: normal;
 					line-height: 1.6em;
@@ -518,20 +525,23 @@
 				font-weight: 400;
 			}
 
+			
+
 		.wrapper.style3 {
-			padding-bottom: 6em;
+			padding-bottom: 4em;
 			background: #000000;
 			text-align: center;
 			color: white;
 		}
 
 			.wrapper.style3 .container {
-				padding-left: 6em;
-				padding-right: 6em;
+				/* padding-left: 4em;
+				padding-right: 4em; */
 			}
 
 			.wrapper.style3 p {
 				font-size: 1.6em;
+				text-align: justify;
 			}
 
 		.wrapper.style4 {
@@ -555,6 +565,21 @@
 					border: 10px solid;
 					border-color: white;
 				}
+
+		.wrapper.style6 {
+			background-image: url(../images/fish-school.jpg);
+			background-size: cover;
+		}
+
+			.wrapper.style6 hr {
+				border-bottom: 1px solid;
+				border-color: inherit;
+				opacity: .55;
+				align-self: center;
+				width: 50%;
+				text-align: center;
+				margin-left: 25%;
+			}
 
 /* Header */
 
@@ -731,15 +756,17 @@
 /* Footer */
 
 	#footer {
-		padding: 6em 0 2em 0;
+		padding: 2em 0 2em 0;
 		text-align: center;
 		color: white;
-	}
-
+	};
+	
 		#footer hr {
 			border-bottom: 1px solid;
 			border-color: inherit;
 			opacity: .05;
+			align-self: center;
+			width: 50%;
 		}
 
 		#footer .major h2 {
@@ -748,7 +775,8 @@
 
 		#footer .major .byline {
 			color: inherit;
-			opacity: .4;
+			opacity: .8;
+			font-weight: 500;
 		}
 
 		#footer .copyright {
