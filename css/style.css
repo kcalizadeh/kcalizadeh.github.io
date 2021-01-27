@@ -746,7 +746,6 @@
 
 		#main #content .major, #main #sidebar .major {
 			text-align: left;
-			display:flex;
 
 		}
 
@@ -854,14 +853,6 @@
 		overflow-x: hidden; 
 		overflow-y: scroll; 
 	}
-
-	.MainContent {
-		display: flex;
-	  }
-
-	/* #content {
-		display: flex;
-	} */
 
 
 /* Team */

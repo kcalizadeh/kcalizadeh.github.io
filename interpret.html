@@ -162,7 +162,12 @@
 								Still, it's worth noting that there are several cases where words with opposite meanings also appear in the same contexts. These would appear as similar words
 								according to the model (because of their shared contexts) while obviously being opposite in meaning. Understanding how the word vectors are generated
 								can help make sense of this phenomenon: similar context indicates similar semantic alignment, and being directly opposed in meaning is one kind of semantic alignment. 
-								
+								<br><br>
+								Word vector analysis also requires a large body of text in order to be useful. If used on a short text, then the small sample size can give excessive weight to outliers. In this case,
+								the outliers are words that appear rarely and thus end up with very high
+								correlations to the words they appear next to, leading to some strange and misleading results. If you use this page and get answers you find nonsensical, we recommend you 
+								check (1) how many texts from your author are in the corpus (can be found on the <a href='stats.html'>stats page</a>), or (2) how many times your query shows up in that source's 
+								texts (can be examined via the <a href='search.html'>search page</a>).
 
 							</p>
 
