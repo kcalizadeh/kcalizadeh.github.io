@@ -554,7 +554,7 @@
 
 		.wrapper.style4 {
 			background: white;
-\		}
+		}
 
 		.wrapper.style5 {
 			background: #000000;
@@ -757,7 +757,6 @@
 			}
 
 			#main #content iframe {
-				scr;
 				overflow-x: hidden; 
 				overflow-y: scroll; 
 				border: khaki;
