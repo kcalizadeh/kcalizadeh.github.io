@@ -11,6 +11,7 @@
 
 	body {
 		background: #222222;
+		overflow-x: hidden;
 	}
 
 		body.loading * {
@@ -133,7 +134,7 @@
 	}
 
 	footer.major {
-		padding-top: 3em;
+		padding-top: 2em;
 	}
 
 /* Form */
@@ -242,6 +243,12 @@
 			display: none;
 		}
 
+
+	.image.full	{
+			display: block;
+			width: 100%;
+			margin-bottom: 2em;
+		}
 /* Lists */
 
 	ol.default {
@@ -363,7 +370,7 @@
 
 		ul.special-icons .fa {
 			float: left;
-			display: inline-block;
+			/* display: inline-block; */
 			padding-right: 1em;
 			font-size: 1.4em;
 			color: #82b440;
@@ -511,7 +518,7 @@
 				.wrapper.style2 .major .byline {
 					letter-spacing: normal;
 					line-height: 1.6em;
-					text-transform: capitalize;
+					text-transform: uppercase;
 					font-size: 1.4em;
 				}
 
@@ -534,11 +541,11 @@
 			color: white;
 		}
 
-			.wrapper.style3 .
-			{
+			/* .wrapper.style3  */
+			/* { */
 				/* padding-left: 4em;
 				padding-right: 4em; */
-			}
+			/* } */
 
 			.wrapper.style3 p {
 				font-size: 1.6em;
@@ -547,7 +554,7 @@
 
 		.wrapper.style4 {
 			background: white;
-		}
+\		}
 
 		.wrapper.style5 {
 			background: #000000;
@@ -742,7 +749,19 @@
 		}
 
 			#main #content h2 {
+				text-align: left;
+			}
+
+			#main #categories h2 {
 				text-align: center;
+			}
+
+			#main #content iframe {
+				scr;
+				overflow-x: hidden; 
+				overflow-y: scroll; 
+				border: khaki;
+				border-width: 3px;
 			}
 
 		#main #sidebar section {
@@ -830,13 +849,17 @@
 		font-weight: 400;
 	}
 
-	iframe {
+	#my-frame body {
 		overflow-x: hidden; 
 		overflow-y: scroll; 
 	}
 
 
 /* Team */
+	/* #team {
+		overflow-x: hidden;
+	} */
+
 
 	#team h3 {
 		margin-bottom: 0.50em;
