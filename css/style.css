@@ -870,19 +870,9 @@
 		position: ;
 	}
 
-	.fixed-sidebar {
-		position: -webkit-sticky;
-		position: -moz-sticky;
-		position: -ms-sticky;
-		position: -o-sticky;
-		position: sticky;
-	}
-
 
 /* Team */
-	/* #team {
-		overflow-x: hidden;
-	} */
+	
 
 
 	#team h3 {
