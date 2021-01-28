@@ -760,8 +760,6 @@
 			#main #content iframe {
 				overflow-x: hidden; 
 				overflow-y: scroll; 
-				border: khaki;
-				border-width: 3px;
 			}
 
 		#main #sidebar section {
