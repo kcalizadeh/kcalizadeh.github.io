@@ -6,7 +6,15 @@
 -->
 <html>
 	<head>
-		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q9DRX3FX9R"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-Q9DRX3FX9R');
+		</script>
 		<title>Interpreting Results</title>
 		<link rel="icon"  type="image/png"    href="images/favico.jpeg">
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -134,7 +142,7 @@
 							This method is thus able to provide us with a word-by-word probability score, showing which words pushed the model to classify a text as belonging to a given school.
 							<br><br>Of course, the model was trained on philosophical texts, not on everyday speech. So one oddity that we found early on is that many everyday texts were classified as belonging to Platonic
 							simply because they made use of personal pronouns. After all, Plato writes dialogues where other authors write formal manuscripts, so his texts have a lot more everyday expressions and conversational words.
-							So to correct for this and make the classifier more illuminating, the current funtion cleans input text by removing words that pull towards certain schools 
+							To correct for this and make the classifier more illuminating, the current funtion cleans input text by removing words that pull towards certain schools 
 							without reflecting anything substantive about the text's idealogy. Another option would have been to remove these stopwords at the modeling stage, before classification, but doing so reduced overall
 							model accuracy. 
 
