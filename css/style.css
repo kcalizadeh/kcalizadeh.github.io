@@ -856,7 +856,12 @@
 		float: left;
 		width: 50%;
 	  }
-	  
+	
+	.column3 {
+		float: left;
+		width: 33.333333333%;
+	  }
+	
 	  /* Clear floats after the columns */
 	  .row:after {
 		content: "";
