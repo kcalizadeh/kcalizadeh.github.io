@@ -771,7 +771,7 @@
 				font-size: 15px;
 			  }
 			  
-			  .active2, .collapsible:hover {
+			  .dropped, .collapsible:hover {
 				background-color: #555;
 			  }
 			  
