@@ -160,7 +160,17 @@
 								This tool was developed using the word vector tools available in the Python gensim library and initial vectors provided by GloVe word embeddings. 
 								Word similarity is then computed mathematically by comparing the vectors for each word or phrase.
 								<br><br> 
-								But what does this all mean? Here's how the word vectors are constructed. First, the program goes through every sentence in the corpus.
+								Let's look at an example to see how we might interpret the results of all that.
+								<br><br>
+								<img src='images/w2v_example.png' style='height: 100%; width: 100%'>
+								Here we can see how three different philosophers use the word 'love.' Plato's use is strongly aligned with his of other words like 'character', 'harmony',
+								and 'wisdom.' This makes sense since he talks often about the 'love of wisdom' and his story of the two halves who seek unity fits well with a conception of love that 
+								emphasizes harmony between people's characters. On the other hand, Marx seems to think of in terms of service and support; love for him is less about harmonious unity 
+								and more about actually helping and serving others. And last we Malebranche, who's conception of love seems definitely colored by his religious orientation. 'Love' is most
+								commonly associated with 'God' in his work, and the other terms seem to make more sense when you consider them in a religious context too. In general, then, 
+								the word use analysis function gives words that often appear in the context as the search query; in ideal cases, this means they are roughly synonymous with the query term. 
+								<br><br>
+								For a more technical understanding of what's going on, here's how the word vectors are constructed. First, the program goes through every sentence in the corpus.
 								For each sentence, it checks each word, looking at what other words appear close to it. At the end of this process, then, we have a list of every word
 								in the corpus, together with a count of how many times each other word appeared next to it. And while the math from here gets a little complex,
 								the basic idea is that words that tend to appear in the same contexts have the same "meaning."
