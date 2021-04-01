@@ -134,24 +134,27 @@
 							<span id='march2021'><h2>March 2021 Monthly Update</h2></span>
 							<hr />
 							<br>
-							<p>This March was the second month for the project. We were able to add a lot of new texts to the database and refactor some of the existing programs to smooth out the data ingestion pipeline. We were even able to get date information, which will help chart word usage and other features across time.<br><br>
+							<p>This March was the second month for the project, and, incidentally, the month of my birthday. This month were able to add a lot of new texts to the database and refactor some of the existing programs to smooth out the data ingestion pipeline. We were even able to get date information, which will help chart word usage and other features across time.<br><br>
 							Let's take a look at the news from this month:
-							<br> <b>-</b> The dataset is now on <a href='https://www.kaggle.com/kouroshalizadeh/history-of-philosophy'>Kaggle</a>, where you can find all kinds of interesting applications and visualizations of the data.
-							<br><b>-</b> Epictetu's <i>Enchiridion</i>, a classic of Stoicism, was added to the corpus.
-							<br><b>-</b> Marcus Aurelius' <i>Meditations</i>, another important work for Stoicism, was added to the corpus.
-							<br><b>-</b> At the request of Annalissa Coliva, a noted Wittgenstein scholar and epistemologist at the University of California, Wittgenstein's <i>On Certainty</i> was added to the corpus.
-							<br><b>-</b> An <a href='#sentiment-by-khosla'>analysis of the dataset</a> by Ritwek Khosla, featuring automatic summarization and sentiment analysis for 31 philosophers, was published on the blog.
-							<br><b>-</b> We made a couple cosmetic changes like logos and how the pages are displayed.
-							<br>Note that the Stoic texts were too short for us to generate meaningful word use analysis for them. Wittgenstein's contribution, however, is reflected on the word use analysis page.
+							<br> <b>-</b> The dataset is now hosted on a Heroku PostgreSQL server, which makes updating the systems and searching the dataset much smoother. For how this was set up, check <a href='https://towardsdatascience.com/set-up-heroku-postgresql-for-your-app-in-python-7dad9ceb0f92?gi=42710e037b86'>here</a>. 
+							<br><b>-</b> The bulk of Nietzsche's works (<i>Thus Spake Zarathustra</i>, <i>Twilight of the Idols</i>, <i>Beyond Good and Evil</i>, <i>Ecce Homo</i>, and <i>The Antichrist</i>) were added to the dataset.
+							<br><b>-</b> Angela Davis' <i>Women, Race, and Class</i>, an important feminist text, was added to the corpus.
+							<br><b>-</b> Simone de Beauvoir's <i>Second Sex</i>, another key feminist work, was added to the corpus.
+							<br><b>-</b> Mary Wollstonecraft's book <i>Vindication of the Rights of Woman</i>, a historic feminist text, was added to the corpus.
+							<br><b>-</b> We published a <a href='#difficultybyhakan'>breakdown of difficulty by author</a> by Hakan Akgün, featuring analysis of how often authors use odd language to map out which thinkers are the most difficult to read.
+							<br><b>-</b> We continued to clean up the data and correct small errors in the apps.
+							<br><b>-</b> Date information was added for each text in the corpus. The full dataset is available on <a href='https://www.kaggle.com/kouroshalizadeh/history-of-philosophy'>Kaggle</a>.
+							<br><b>-</b> The Word Use Analysis feature was updated to include word vectors for both the feminist school and Nietzsche.<br>
+							<br>Note that the date information spans two columns. One gives the original author's date of writing, the other gives the publication date of the edition used in this corpus. The latter are almost all in the 20th century, while the former span the history of philosophy. Where a given text contains multiple works from different years (as in Plato's <i>Complete Works</i>, for example), an approximation has been made.
 							<br><br>
-							What's next? Well this month there are a couple key goals:
-							<br><b>-</b> To overhaul the existing database so that it is housed in a different format (from csvs to SQL) and is thus easier to update and query. This will allow us to greatly expand the searchability of the data and to hopefully add texts at a faster rate.
-							<br><b>-</b> To add information regarding dates of original publication and translation for the texts in the corpus. This will enable us to analyze the data based on time, tracking word use or comparing trends in thought to major world events.
-							<br><b>-</b> To continue adding texts and publishing new analyses of the data. Next up, I think, will be some Nietzsche.
+							What's next? Well for April there are a couple key goals:
+							<br><b>-</b> To develop a feature that can use the date information we have to chart word use over time.
+							<br><b>-</b> To begin work on another feature that can measure how often philosophers mention one another, thus tracking lines of influence and criticism between thinkers.
+							<br><b>-</b> To continue adding texts and publishing new analyses of the data. This month we may focus on Eastern philosophies such as Confucianism and Daoism.
 							<br><br>
-							Thank you to everyone who has provided analysis, feedback, or just encouragement. You're the reason I built this and  you're the reason I'm excited to keep expanding it.
+							Thank you to everyone who has provided analysis, feedback, or just encouragement. It is great to know that the community enjoys and uses this resource. If you have any suggestions or would like to see a given text added to the corpus, please don't hesitate to let me know. 
 							<br><br>
-							I also want to give a special thanks to our new patron <a href='https://economics.colostate.edu/author/zach387/'>Zachary Schallar</a>, Associate Professor of Economics at Colorado State University. If you're interested in supporting the project financially, you can do so through the <a href='https://www.patreon.com/philosophydata'>patreon page</a>. If you want to contribute your texts or research, feel free to <a href='mailto:kcalizadeh@gmail.com'>contact me.</a>
+							If you're interested in supporting the project financially, you can do so through the <a href='https://www.patreon.com/philosophydata'>patreon page</a>. If you want to contribute your texts or research, feel free to <a href='mailto:kcalizadeh@gmail.com'>contact me.</a>
 							<br>
 
 
